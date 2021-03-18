@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#teste{
+            font: normal 15pt Arial;
+            background-color: aqua;
+            color: black;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="teste"><!-- ao inves de usar oe eventos HTML, utilizar os eventos JS addEventListener para deixar o HTML menos poluido-->
+        Teste
+    </div>
+
+    <script>
+     var a = window.document.getElementById('teste'); //pegando o ID do HTML e salvando na variavel a
+     a.addEventListener('click', Clicou);//trocando os eventos HTML por eventos disparados pelo JS o mesmo que onclick() e etc...
+     a.addEventListener('mouseenter', Entrar)
+     a.addEventListener('mouseout', Sair)
+
+     function Clicou(){
+         var area = window.document.getElementById('teste')
+         area.innerText = 'Clicou!' //mudando o texto do HTML com o innetText
+         area.style.background = 'green'//acessando as propriedades CSS do html atraves de JS
+     }
+
+     function Entrar(){
+         var enter = window.document.getElementById('teste')
+         enter.innerText = " Entrou";
+         enter.style.background = 'red'//acessando as propriedades CSS do html atraves de JS
+     }
+
+     function Sair(){
+         var sair = window.document.getElementById('teste')
+         sair.innerText = "Saiu";
+         sair.style.background = 'blue'
+     }
+
+
+
+    </script>
+    
+</body>
+</html>
