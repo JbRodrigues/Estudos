@@ -1,3 +1,4 @@
+/*RODA MAIOR DE LOADING
 .loading{
     width: 200px;
     height: 200px;
@@ -7,8 +8,44 @@
     animation: spin 1s linear infinite;
 }
 
+
+KEYFRAME DA RODA MAIOR DE LOADING
 @keyframes spin{
     to{
         transform: rotate(360deg);
     }
 }
+*/
+/*----------------------------------------------------------------------*/
+
+.dots div {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 50%;
+    margin-left: 15px;
+
+    animation: move 1s ease-in-out infinite alternate;
+}
+.dots div:nth-child(1){
+    animation-delay: -0.4s;
+}
+
+.dots div:nth-child(2){
+    animation-delay: -0.2s;
+}
+
+.dots {
+    display: flex;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(-100%);
+
+    }
+    to{
+       transform: translateY(100%);
+    }
+}
+
