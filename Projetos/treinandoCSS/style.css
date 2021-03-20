@@ -1,5 +1,5 @@
 /*RODA MAIOR DE LOADING*/
-/*
+
 .loading{
     width: 200px;
     height: 200px;
@@ -18,7 +18,7 @@
 
 /*----------------------------------------------------------------------*/
 
-/*RODA COM OS 3 PONTINHOS*//*
+/*RODA COM OS 3 PONTINHOS*/
 .dots div {
     width: 50px;
     height: 50px;
@@ -48,11 +48,11 @@
     to{
        transform: translateY(100%);
     }
-}*/
+}
 
 /* ----------------------------------------------------------------*/
 /*OUTRA FORMA DE FAZER O LOADING*/
-/*
+
 *{
     margin: 0;
     padding: 0;
@@ -94,7 +94,7 @@ body{
         transform: scale(1);
     }
 }
-*/
+
 /* ----------------------------------------------------------------*/
 
 span {
