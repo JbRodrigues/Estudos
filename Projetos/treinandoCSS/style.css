@@ -50,8 +50,9 @@
     }
 }*/
 
+/* ----------------------------------------------------------------*/
 /*OUTRA FORMA DE FAZER O LOADING*/
-
+/*
 *{
     margin: 0;
     padding: 0;
@@ -93,3 +94,27 @@ body{
         transform: scale(1);
     }
 }
+*/
+/* ----------------------------------------------------------------*/
+
+span {
+    background-color: #5bff71;
+    width: 20px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px 2px;
+
+}
+
+span:nth-child(1){ animation: grow 0.5s -0.45s ease-in-out alternate infinite; }
+span:nth-child(2){ animation: grow 0.5s -0.3s ease-in-out alternate infinite; }
+span:nth-child(3){ animation: grow 0.5s -0.15s ease-in-out alternate infinite; }
+span:nth-child(4){ animation: grow 0.5s 0s ease-in-out alternate infinite; }
+
+@keyframes grow{
+    to{
+        transform: scaleY(2);
+    }
+}
+
+
