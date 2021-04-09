@@ -31,13 +31,13 @@ body {
     margin-top: 10px;
     border: 1px solid #565656;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgb(245, 159, 0);
+    box-shadow: 0 0 10px #0AF109;
 }
 
 .percentage {
     display: block;
     height: 100%;
-    background-color: orange;
+    background-color: #0AF109;
     border-radius: 5px;
     animation: progress 1500ms ease-in 1;
 }
