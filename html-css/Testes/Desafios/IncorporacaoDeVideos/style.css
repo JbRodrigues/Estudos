@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.363);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.images {
+    background-color: black;
+    border: blue solid 1px;
+}
