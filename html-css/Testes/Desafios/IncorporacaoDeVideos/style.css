@@ -2,17 +2,24 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color:rgba(0, 0, 0, 0.363);
+}
+
+body{
+    background-color: rgba(10, 10, 10, 0.37);
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 10px;
+    padding: 3px;
     
 }
 
 .images {
-    background-color: black;
+    padding: 2px;
+    background-color:rgba(0, 0, 0, 0.363);
     border: blue solid 1px;
 }
+
