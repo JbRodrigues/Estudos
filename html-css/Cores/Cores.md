@@ -61,4 +61,7 @@ Simetria - Sincronia
 * Saturaçao e luminosidade da cor
 * Degrade
 
-
+# Sites
+Adobe Color
+Paletton
+Coulors
