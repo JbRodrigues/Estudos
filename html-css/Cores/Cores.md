@@ -1,20 +1,21 @@
 # Cores
+
 ## Psicologia Das Cores
 
 As cores influenciam na escolha dos produtos.
 
-## Cirulo Cromatico
+# Cirulo Cromatico
 
 Harmonia das cores
 Simetria - Sincronia
 
-### Cores Primarias
+## Cores Primarias
 -Amarelo, Vermelho, Azul
 
-### Cores Secundarias
+## Cores Secundarias
 -Laranja, Violeta, Verde
 
-### Cores Terciaria
+## Cores Terciaria
 -Junção das cores Primarias e secundarias 
 -Tons Pasteis
 
@@ -59,10 +60,5 @@ Retangulo
 ## Monocromia
 Saturaçao e luminosidade da cor
 Degrade
-
-
-
-
-
 
 
