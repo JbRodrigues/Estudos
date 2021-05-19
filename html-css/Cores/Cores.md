@@ -64,4 +64,4 @@ Simetria - Sincronia
 # Sites
 Adobe Color
 Paletton
-Coulors
+Coolors
